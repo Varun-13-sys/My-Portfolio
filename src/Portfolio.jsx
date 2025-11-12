@@ -1,6 +1,6 @@
 import React from "react";
 
-const CONTACT_EMAIL = "your.email@example.com"; // <-- replace with your actual email
+const CONTACT_EMAIL = "varuna0213@gmail.com"; 
 
 export default function Portfolio() {
   const handleMailTo = (e) => {
@@ -173,8 +173,8 @@ export default function Portfolio() {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h4 className="font-semibold">Quick Links</h4>
             <ul className="mt-3 text-sm text-gray-700 list-disc list-inside">
-              <li>GitHub: <a href="https://github.com/your-github" target="_blank" rel="noreferrer" className="text-indigo-600">your-github</a></li>
-              <li>LinkedIn: <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer" className="text-indigo-600">your-linkedin</a></li>
+              <li>GitHub: <a href="https://github.com/Varun-13-sys" target="_blank" rel="noreferrer" className="text-indigo-600">Varun-13-sys</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/varun0213/" target="_blank" rel="noreferrer" className="text-indigo-600">Varun A</a></li>
               <li>Email: <a href={`mailto:${CONTACT_EMAIL}`} className="text-indigo-600">{CONTACT_EMAIL}</a></li>
               <li><a href="/resume.pdf" className="text-indigo-600">Download Resume</a></li>
             </ul>
@@ -182,7 +182,7 @@ export default function Portfolio() {
         </section>
 
         <footer className="mt-12 text-center text-sm text-gray-500">
-          <p>Built with ❤️ using React, Tailwind CSS — Portfolio of Varun A.</p>
+          <p>Built by Varun A.</p>
         </footer>
       </main>
     </div>
